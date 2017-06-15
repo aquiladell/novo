@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Subcription Form</title>
+<meta charset="ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+   function doOnLoad(){
+       document.forms[0].firstName.focus();
+       return false;
+    }
+   function handleFormData(){
+      var firstname = document.getElementById('firstname').value;
+      if(firstname == ''){
+        alert('Please fill out your first name');
+       document.getElementById('firstname').focus();
+       }
+       return false;
+    }
+   function showProvinces(){
+     var selectBox =document.getElementById('country');
+     var userInput =selectBox.options[selectBox.selectedIndex].value;
+        if (userInput =='NL'){
+         document.getElementById('nlProvinces').style.visibility ='visible';
+        } else {
+         document.getElementById('nlProvinces').style.visibility ='hidden';
+         }
+      return false;
+    }
+   function showHelpMsg(){
+        var helpMsg =document.createElement('div');
+        var t =document.createTexNode('User at last six characters');
+           helpMsg.id ='helpMsg';
+           helpMsg.appendChild(t);
+             document.getElementById('divPwd').appendChild(helpMsg);
+         helpMsg.className ='helpMsg';
+       }
+    function hideHelpMsg(){
+          var tagToRemove =document.getElementById('helpMsg');
+         tagToRemove.parentNode.removeChild(tagToRemove);
+     }
+ </script>
+</head>
+<body onload="doOnLoad();">
+  <div align="center">
+   <img src="images/logo.jpg"/> 
+      </div>
+            
+ <h1> Subcription Form</h1>
+
+<form action="Trade" method="post" id="userData" onsubmit="return handleFormData();">
+<label for="title">Title:</label>
+  <select name = "title">
+      <option value="mr">&lt;Mr.&lt;</option>
+      <option value="mrs">&lt;Mrs.&lt;</option>
+      <option value="mss">&gt;Mss&lt;</option>
+    </select>
+
+<div>
+<label for="firstname">FirstName:</label>
+<input type="text" name="firstname" id="firstName" />
+</div>
+<div>
+<label for="lastname">LastName:</label>
+<input type="text" name="lastname" id="lastName" />
+</div>
+ 
+<div>
+<label for="adress">Address:</label>
+<input type="text" name="address" id="address" />
+</div>
+ <div>
+<label for="email">Email:</label>
+<input type="text" name="email" id="email" />
+</div>
+<div>
+<label for="country">Country:</label>
+<input type="text" name="country" id="country" />
+</div>
+
+<div>
+<label for="username">LastName:</label>
+<input type="text" name="username" id="userame" />
+</div>
+<div>
+<label for="senha">Senha:</label>
+<input type="text" name="senha" id="senha" />
+</div>
+ <tr><td> <h3>PASSWORD:</h3></td>
+ <td><input type="password" name = "senha"/></td>
+ <tr>
+ <td><h3>INICIAL DEPOSIT: $ </h3></td>
+ <td> <input type ="text" name = "inicialdeposit"/></td><td><h3>,00</h3></td>
+ 
+ <tr>
+ <td><h3> CONTA TYPE: </h3><select name = "conta_type">
+      <option value="CURRENT">&lt;CURRENT</option>
+      <option value="EXPERCIAL">EXPERCIAL</option>
+      <option value="CREDIT CARD">&gt;CREDIT CARD</option>
+       </select>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td><h3>DEPOSITO: $ </h3></td>
+ <td> <input type ="text" name = "deposito"/></td>
+ </tr>
+ 
+ <tr>
+ <td><h3>BALANCO: $</h3></td>
+ <td> <input type ="text" name = "balanco"/></td>
+ </tr>
+ </tr>
+  <tr>
+  <td colspan="2" align="center"> 
+  <input type ="submit"  value = "Submit">
+  </td></tr>
+ 
+ </form>
+ </table>
+ </fieldset>
+<p>
+   <script type="text/javascript">document.write("Your IP is :", userip);</script>            
+ <h3>Login in your Account.</h3>
+                
+  <form action = "index.html" method ="get">
+ <table>
+  <tr><td colspan="2" align="center"> 
+  <input type ="submit"  value = " Login">
+  </td></tr>
+ </table>
+ </form>     
+        </div>
+    
+ <table>
+<form action = "display.jsp" method ="get">
+  <tr><td colspan="2" align="center"> 
+  <input type ="DISPLAY"  value = "">
+  </td></tr>
+ </form> 
+  </table> 
+  
+  <h2>User Input Form</h2>
+<form method="get" action="echo">
+  <fieldset>
+    <legend>Personal Particular</legend>
+    Name: <input type="text" name="username" /><br /><br />
+    Password: <input type="password" name="password" /><br /><br />
+    Gender: <input type="radio" name="gender" value="m" checked />Male
+    <input type="radio" name="gender" value="f" />Female<br /><br />
+    Title: <select name = "title">
+      <option value="mr">&lt;Mr.&lt;</option>
+      <option value="ms">&lt;Ms.&lt;</option>
+      <option value="mss">&gt;Mss&lt;</option>
+    </select>
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Languages</legend>
+    <input type="checkbox" name="language" value="java" checked />Java
+    <input type="checkbox" name="language" value="c" />C/C++
+    <input type="checkbox" name="language" value="cs" />C#
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Instruction</legend>
+    <textarea rows="5" cols="30" name="instruction">Enter your instruction here...</textarea>
+  </fieldset>
+ 
+  <input type="hidden" name="secret" value="888" />
+  <input type="submit" value="SEND" />
+  <input type="reset" value="CLEAR" />
+</form>
+  
+</div>
+</body>
+</div>
+</html>

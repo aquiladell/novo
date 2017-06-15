@@ -1,0 +1,74 @@
+<%@page import="java.sql.*"%>
+<%@page import="java.util.Date"%>
+<% Class.forName("com.mysql.jdbc.Driver");%>
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>Withdrow</title>
+</head>
+<div id="container">
+<body>
+ <table border="0" bgcolor="silver">
+             <tbody>
+                <tr>
+                 <td>
+  <div id="navigation">
+     <ul>
+        <li><a href=" deposit.jsp ">DEPOSIT</a></li>
+        <li><a href=" balanco.jsp ">BALANCE</a></li>
+        <li><a href=" historical.jsp ">RECENT TRANSACTIONS</a></li>
+        <li><a href=" LogOut.java ">LOGOUT</a></li>
+        </ul>
+ </div>
+ <p><br>
+ <div id="head">
+
+  <h1>To Withdraw</h1>
+  </div>
+ <div id="content">
+ <% 
+     String id = (String) session.getAttribute("id_client");
+     System.out.print("--ESSE E' id --"+ id);
+     //  String username = (String) session.getAttribute("usuername");
+   //  if(username != "username")
+   // 	 throw new ServletException("Nenhum Usuário Logado");
+     %> 
+     <table border="0">
+             <tbody>
+                <tr>
+                 <td>    
+ <h2><%= id %> </h2></td>  
+ <td><h2><%= session.getAttribute("id_client") %> </h2></td>
+ <td><h2><%= session.getAttribute("firstname") %> </h2></td>
+ <td><h2><%= session.getAttribute("lastname") %> </h2></td>
+                </tr>
+                </tbody>
+                </tablet>
+     
+   
+     <form name="frmWithdraw" action="Withdraw" method="POST">
+        <table border="0">
+             <tbody>
+                <tr>
+                 <td><h2> How much do you want Withdorws:</h2></td>
+              <td><input type="text" name="sacar" value="" size=" " /></td>
+                </tr>
+                <tr>
+                 <td> 
+                <input type="reset" value="clear" name="Clear"/>
+                <input type="submit" value="sutmit" name="Submit"/></td>
+              <td></td>
+                </tr>
+                </tbody>
+                </tablet>
+                 </form>
+             
+       
+  </div>      
+ </div>                   
+</body>
+</html>

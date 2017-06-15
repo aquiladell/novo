@@ -31,7 +31,11 @@ If you wish to use the Manager Application to deploy and undeploy applications i
 
 For security reasons, no username in the default Realm (i.e. using conf/tomcat-users.xml is assigned the "manager-gui" role. Therefore, no one will be able to utilize the features of this application until the Tomcat administrator specifically assigns this role to one or more users.
 -->
+<tomcat-users>
+<role rolename="manager-script"/>
 
+<user username="root" password="rafael12" roles="manager-script"/>
+</tomcat-users>
 <!--
   <role rolename="tomcat"/>
   <role rolename="role1"/>
