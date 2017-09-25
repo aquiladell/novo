@@ -4,7 +4,7 @@
 {
   margin: 0 auto;
    width: 600px;
-  background:#fff;
+  background:#ccc;
 }
 
 #header
@@ -40,9 +40,9 @@
   display: block;
   float: left;
   padding: 5px 10px;
-   color:#fff;
+   color:#ccc;
   text-decoration: none;
-  boder-right: 1px solid#fff;
+  boder-right: 1px solid#ccc;
 }
 
 #navigation li a a:hover { background: #383; }

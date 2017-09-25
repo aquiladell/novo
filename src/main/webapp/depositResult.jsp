@@ -8,7 +8,7 @@
 </head>
 <div id="container">
 <body>
-   <table border="0" bgcolor="silver">
+   <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
                  <td>
@@ -22,7 +22,9 @@
     </ul>
  </div>
   <div id="head"> 
-   <p><br> 
+    <div align="center">    
+      <img src="investment_files/eug.jpg"/><br/>
+      </div> 
     <center><h1>Your Deposit was susseciful !</h1></center>
     </div>
     <table>

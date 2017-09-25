@@ -10,7 +10,7 @@
 </head>
 <div id="container">
 <body>
- <table border="0" bgcolor="silver">
+ <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
                  <td>
@@ -22,7 +22,9 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
         </ul>
  </div>
- <p><br>
+  <div align="center">    
+      <img src="investment_files/eug.jpg"/><br/>
+      </div>
  <div id="head">
 
   <h1>To Withdraw</h1>

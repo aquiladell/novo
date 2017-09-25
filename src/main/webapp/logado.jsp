@@ -5,11 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css" type="text/css">
-<title>Login</title>
+<title>Logado</title>
 </head>
 <div id="container">
 <body>
-   <table border="0" bgcolor="silver">
+   <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
                  <td>
@@ -22,39 +22,42 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
     </ul>
  </div>
+ <p><br>
+ <div align="center">    
+      <img src="investment_files/eug.jpg"/><br/>
+      </div>
     <% 
-   String id = (String) session.getAttribute("id_client");
+   //String id = (String) session.getAttribute("id_client");
         // session = request.getSession(true);
      //if(id != null)
     	// throw new ServletException("Nenhum Usuário Logado");
-     %>     
-   <div id="head"> 
-   <p><br> 
-    <center><h1>WELCOME !</h1></center>
-    </div>
-   <table>
-  <tr><td><h2>Id Cliente</h2></td> <td><h2>Username</h2></td>
-   <tr><td><h2><%= session.getAttribute("id_client") %> </h2></td>
-   <% 
+     %> 
+     
+       <% 
    // String id_client = (String) session.getAttribute("id_client");
 	
    //  if(  id_client != id_client){
    // 	 session = request.getSession(true);
-    	 System.out.print("--ESSE E' id --"+ id);
    //  }else{
     //	 System.out.print("--NAO DEU CERTO id_client --");
    //  }
-     %> 
-     <td><h3><%= session.getAttribute("lastname") %> </h3></td>    
-  <td><h3><%= session.getAttribute("username") %> </h3></td></tr>
-   <tr><td><h2>FirstName</h2></td><td><h2>LastName</h2></td></tr>
-  <td><h3><%= session.getAttribute("firstname") %> </h3></td>
-  <td><h3><%= session.getAttribute("lastname") %> </h3></td>
-  </tr>   
- <tr>
- <tr><td><h2>What we can do for you ?</h2>
- </td></tr>
- </table>
+     %>    
+   <div id="head"> 
+  
+    <center><h1>WELCOME !</h1></center>
+    </div>
+   <table align="center" border="0"> <tbody>
+  <tr><td><h2>ID Client</h2></td><td> </td>
+  <td><h2>First Name</h2></td><td> </td>  
+  <td><h2>Last Name</h2></td>
+  </tr>
+   <td><center></center><h2><%= session.getAttribute("id_client") %> </h2></td><td> </td>
+  <td><h2><%= session.getAttribute("firstname") %> </h2></td><td> </td>
+  <td><h2><%= session.getAttribute("lastname") %> </h2></td>
+   </tr>  </tbody></table>
+   
+ 
+  
  </div>
  </td>
                 </tr>

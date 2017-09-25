@@ -12,7 +12,7 @@
 </head>
 <div id="container">
 <body>
- <table border="0" bgcolor="silver">
+ <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
                  <td>
@@ -24,15 +24,17 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
         </ul>
  </div>
- <p><br>
- <div id="head">
+<div align="center">    
+      <img src="investment_files/eug.jpg"/><br/>
+      </div>
+ <div id="head"  align="center">
 
   <h1>To Withdraw</h1>
   </div>
  <div id="content">
  <% 
      String id = (String) session.getAttribute("id_client");
-     System.out.print("--ESSE E' id --"+ id);
+   
      //  String username = (String) session.getAttribute("usuername");
    //  if(username != "username")
    // 	 throw new ServletException("Nenhum Usuário Logado");
@@ -50,18 +52,19 @@
                 </tablet>
      
    
-     <form name="frmWithdraw" action="Withdraw" method="POST">
+     <form name= "frmWthdraw" action="Withdraw" method ="post">
         <table border="0">
              <tbody>
                 <tr>
                  <td><h2> How much do you want Withdorws:</h2></td>
-              <td><input type="text" name="sacar" value="" size=" " /></td>
+                <td>
+                <input type="text" name="sacar" /></td>
                 </tr>
                 <tr>
                  <td> 
                 <input type="reset" value="clear" name="Clear"/>
-                <input type="submit" value="sutmit" name="Submit"/></td>
-              <td></td>
+                <input type="submit" value="sutmit" name="Submit"/>
+                </td>
                 </tr>
                 </tbody>
                 </tablet>

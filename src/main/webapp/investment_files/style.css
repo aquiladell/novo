@@ -6,13 +6,13 @@ body {
 	font-size:13px;
 	margin:0;
 	padding:0;
-	background-color:#ffffff;
+	background-color:#cccccc;
 	color:#000000; 
 	width:100%;
 }  
 
 #body-content-wrapper {
-    background-color:#000000 
+    background-color:#cccccc 
 	position:relative;
 	overflow:hidden;
 }
@@ -35,11 +35,11 @@ body:before {
 a {
 	text-decoration:none;
 	outline:none;
-	color:#ffffff;
+	color:#cccccc;
 }
 
 a:hover {
-	color:#ffffff;
+	color:#cccccc;
 }
 
 a img{
@@ -235,7 +235,7 @@ ul {
 }
 
 #header-main-fixed a:hover {
-	color:#ffffff; 
+	color:#cccccc; 
 }
 
 #header-spacer {
@@ -288,7 +288,7 @@ ul {
 	position:fixed;
 	top:18px;
 	z-index:5000;
-	 background-color:#cccccc;
+	 background-color:#999999;
 	padding:10px !important;
 	border:1px solid #f5f5f5;
 }
@@ -298,7 +298,7 @@ ul {
 	position:fixed;
 	top:18px;
 	z-index:5000;
-	background-color:#cccccc;
+	background-color:#999999;
 	padding:10px !important;
 	border:1px solid #f5f5f5;
 }
@@ -394,7 +394,7 @@ article,
 */
 #footer-main {
 	clear:both;
-	background-color:#CCCCCC; 
+	background-color:#cccccc; 
 	color:#000000; 
 	margin:20px 0 0 0;
 	padding:10px 2% 5px 2%;
@@ -2997,7 +2997,7 @@ input[type=text], input[type=password] {
 }
 /* Set a style for all buttons */
 button {
-    background-color: #ffffff;
+    background-color: #cccccc;
     color: black;
     padding: 3px 8px;
     margin: 3px 0;
@@ -3013,7 +3013,7 @@ button {
   cursor: pointer;
   outline: none;
   color: #000;
-  background-color:#ffffff;
+  background-color:#cccccc;
   border: none;
   border-radius: 15px;
 }*/
@@ -3021,7 +3021,7 @@ button {
 
 
 button:hover {
-	background-color: #cccccc
+	background-color: #999999
 	box-shadow: 0 1px #666;
   transform: translateY(4px);
 /*  border-radius: 55px; */
@@ -3030,7 +3030,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #ffffff;
+  background-color: #999999;
   box-shadow: 0 1px #fff;
   transform: translateY(4px);
   border-radius: 85px; 
@@ -3053,7 +3053,7 @@ button:active {
 
 /* Avatar image */
 img.avatar {
-    width: 30%;
+    width: 50%;
     border-radius: 30%;
 }
 

@@ -10,7 +10,7 @@
 </head>
 <div id="container">
 <body>
- <table border="0" bgcolor="silver">
+ <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
                  <td>
@@ -28,11 +28,11 @@
 
     
       
-      <img src="investment_files/grande.jpg"/><br/>
+      <img src="investment_files/eug.jpg"/><br/>
       
      <table bgcolor="red">
   
- <tr><td>  </td><td> <h3>Your USER ID or PASSWORD NOT MACTH</h3></td><td>  </td></tr>
+ <tr><td>  </td><td> <h3>Your USER ID or PASSWORD DON'T MACTH</h3></td><td>  </td></tr>
  </table>
  
       <h2>Please enter your:</h2>

@@ -9,7 +9,7 @@
 </head>
 <div id="container">
 <body>
-   <table border="0" bgcolor="silver">
+   <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
                  <td>
@@ -29,7 +29,9 @@
     //	 throw new ServletException("Nenhum Usuário Logado");
      %>
      
-  
+   <div align="center">    
+      <img src="investment_files/eug.jpg"/><br/>
+      </div>
    <div id="head"> 
    <p><br> 
     <center><h1>Hi !</h1></center>

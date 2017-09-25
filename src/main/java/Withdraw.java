@@ -50,8 +50,8 @@ public class Withdraw extends HttpServlet {
 			       System.out.print("--passou INSERT--");
 			        pst.setString(2, sacar);
 			        System.out.print("--passou SETSTRING--");
-					pst.execute();
-			       
+					//pst.execute();
+			       pst.executeQuery();
 			        
 			        System.out.println("--PEGOU O PRIMEIRO-- ");
 			      /*  pst = (PreparedStatement) con.prepareStatement(
@@ -88,14 +88,14 @@ public class Withdraw extends HttpServlet {
 			          	       rd.forward(request, response);
 			            
 			         		   }else{
-			         			   System.out.print("--1--ERRROORRR--");
+			         			   System.out.print("----ERRROORRR--");
 			         			    } 
 			           //  }           
 			             }catch (SQLException e){
-			                         System.out.print("---Catch 1 do Statement---- "+ e);
+			                         System.out.print("---Catch  do Statement---- "+ e);
 			                                    }
 			}else{
-				   System.out.print("-- 2  ERRROORRR--");
+				   System.out.print("--    ERRROORRR-22-");
 				    }
 		
           }

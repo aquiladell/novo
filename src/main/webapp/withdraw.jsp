@@ -20,7 +20,9 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
         </ul>
  </div>
- <p><br>
+ <div align="center">    
+      <img src="investment_files/eug.jpg"/><br/>
+      </div>
  <div id="head">
   <h1>Withdraw Date</h1>
    </div>
@@ -46,7 +48,6 @@
         	              System.out.print("---Catch do Statement---- "+ e);
                                            }
                 }
-
               public ResultSet getActors(){
          	     try{
         	          resultSet = selectActor.executeQuery();       	  

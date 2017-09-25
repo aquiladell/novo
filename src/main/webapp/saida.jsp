@@ -29,7 +29,7 @@
       <h1>Welcome !</h1>            
       <h2>EugenioBank</h2>
       
-      <img src="images/jbosscorp_logo.png"/><br/>
+      <img src=""investment_files/eug.jpg"/><br/>
      <table bgcolor="silver">
   
  <tr><td>  </td><td> <h3>You just Log Out. Thank you, have a nice day !</h3></td><td>  </td></tr>
