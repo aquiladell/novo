@@ -9,9 +9,12 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <link rel="stylesheet" href="style.css" type="text/css">
       <title> BALANCE</title>
-    </head>
+    </head><body >
     <div id="container">
-<body >
+    
+        <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
 <div id="navigation">
      <ul>
         <li><a href=" deposit.jsp ">DEPOSIT</a></li>
@@ -20,9 +23,7 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
         </ul>
  </div>
-  <div align="center">    
-      <img src="investment_files/eug.jpg"/><br/>
-      </div>
+ 
  <div id="head">
   <h1>Balance Date</h1>
    </div>
@@ -89,7 +90,7 @@
                  <% }%>  
                  <% }%> 
                 </tbody>
-                </tablet>
+                </table>
                
     
 

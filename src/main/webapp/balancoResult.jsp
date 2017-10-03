@@ -6,9 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css" type="text/css">
 <title>BalanceResult</title>
-</head>
+</head><body>
 <div id="container">
-<body>
+
+
+ <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
    <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
@@ -23,9 +27,7 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
     </ul>
  </div>
-  <div align="center">    
-      <img src="investment_files/eug.jpg"/><br/>
-      </div>
+ 
    <div id="head"> 
    <p><br> 
     <h1>Hello !</h1>

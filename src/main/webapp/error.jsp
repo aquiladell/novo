@@ -28,7 +28,7 @@
 
     
       
-      <img src="investment_files/eug.jpg"/><br/>
+      <img src="investment_files/eugBank.jpg"/><br/>
       
      <table bgcolor="red">
   

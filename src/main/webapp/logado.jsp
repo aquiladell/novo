@@ -6,9 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css" type="text/css">
 <title>Logado</title>
-</head>
+</head><body>
 <div id="container">
-<body>
+         <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
+
+
    <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
@@ -23,9 +27,7 @@
     </ul>
  </div>
  <p><br>
- <div align="center">    
-      <img src="investment_files/eug.jpg"/><br/>
-      </div>
+
     <% 
    //String id = (String) session.getAttribute("id_client");
         // session = request.getSession(true);
@@ -62,7 +64,7 @@
  </td>
                 </tr>
                 </tbody>
-                </tablet>
+                </table>
 </body>
 
 </html>

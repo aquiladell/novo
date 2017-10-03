@@ -10,8 +10,11 @@
 <link rel="stylesheet" href="style.css" type="text/css">
 <title>Withdrow</title>
 </head>
-<div id="container">
 <body>
+<div id="container">
+      <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
  <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
@@ -24,9 +27,7 @@
         <li><a href=" LogOut.java ">LOGOUT</a></li>
         </ul>
  </div>
-<div align="center">    
-      <img src="investment_files/eug.jpg"/><br/>
-      </div>
+
  <div id="head"  align="center">
 
   <h1>To Withdraw</h1>
@@ -49,7 +50,7 @@
  <td><h2><%= session.getAttribute("lastname") %> </h2></td>
                 </tr>
                 </tbody>
-                </tablet>
+                </table>
      
    
      <form name= "frmWthdraw" action="Withdraw" method ="post">
@@ -67,11 +68,12 @@
                 </td>
                 </tr>
                 </tbody>
-                </tablet>
+                </table>
                  </form>
-             
-       
+                   
   </div>      
- </div>                   
+   </tbody>
+        </table> 
+</div>                 
 </body>
 </html>

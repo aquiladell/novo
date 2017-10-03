@@ -11,9 +11,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css" type="text/css">
 <title>Logado</title>
-</head>
+</head><body>
 <div id="container">
-<body>
+      <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
    <table border="0" bgcolor="cccccc">
              <tbody>
                 <tr>
@@ -34,9 +36,7 @@
     //	 throw new ServletException("Nenhum Usuário Logado");
      %>
      
-  <div align="center">    
-      <img src="investment_files/eug.jpg"/><br/>
-      </div>
+ 
    <div id="head"> 
    <p><br> 
     <center><h2>Hi !</h2></center>

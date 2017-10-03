@@ -6,30 +6,27 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css" type="text/css">
 <title>Display</title>
-</head>
+</head><body>
+
 <div id="container">
-<body>
-
- <table border="0" bgcolor="cccccc">
-             <tbody>
-                <tr>
-                 <td>
-<div id="head">
-
-  <h1> Welcome !</h1>
-  </div>
-  <div id="navigation">
-     <ul>
-          <li><a href=" sacar.jsp ">WITHDROW</a></li>
-         <li><a href=" deposit.jsp ">DEPOSIT</a></li>
-        <li><a href=" balanco.jsp ">BALANCE</a></li>
-        <li><a href=" historical.jsp ">RECENT TRANSACTIONS</a></li>
+    <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
+    <table border="0" bgcolor="cccccc">
+      <tbody><tr><td>
+   <br>
+       
+       <br>
+       <div id="navigation">
+        <ul>
+        <li><a href=" sacar.jsp ">WITHDROW </a></li>
+        <li><a href=" deposit.jsp ">DEPOSIT </a></li>
+        <li><a href=" balanco.jsp ">BALANCE </a></li>
+        <li><a href=" historical.jsp ">RECENT TRANSACTIONS </a></li>
         <li><a href=" LogOut.java ">LOGOUT</a></li>
         </ul>
  </div>
-  <div align="center">    
-      <img src="investment_files/eug.jpg"/><br/>
-      </div>
+
  <div id="content">
 <table border="O">
 

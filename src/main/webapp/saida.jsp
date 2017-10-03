@@ -7,9 +7,11 @@
 <link rel="stylesheet" href="style.css" type="text/css">
   <title>EugenioBank Error</title>
   
-</head>
+</head><body>
 <div id="container">
-<body>
+      <div align="center">    
+      <img src="investment_files/eugBank.jpg"/><br/>
+      </div>
  <table border="0" bgcolor="silver">
              <tbody>
                 <tr>
@@ -29,7 +31,7 @@
       <h1>Welcome !</h1>            
       <h2>EugenioBank</h2>
       
-      <img src=""investment_files/eug.jpg"/><br/>
+      <img src=""investment_files/eugBank.jpg"/><br/>
      <table bgcolor="silver">
   
  <tr><td>  </td><td> <h3>You just Log Out. Thank you, have a nice day !</h3></td><td>  </td></tr>
